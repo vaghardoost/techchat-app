@@ -1,0 +1,212 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "content": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "photo": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "url": {"type": "string"},
+              "caption": {"type": "string"},
+              "link": {"type": "string"}
+            },
+            "additionalProperties": false,
+            "required": ["url"]
+          },
+          "caption": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "caption": {"type": "string"},
+              "link": {"type": "string"}
+            },
+            "additionalProperties": false,
+            "required": ["caption"]
+          },
+          "hs_photo_caption": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "photos": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "string"},
+                    "url": {"type": "string"},
+                    "caption": {"type": "string"},
+                    "link": {"type": "string"}
+                  },
+                  "additionalProperties": false,
+                  "required": ["url"]
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": ["photos"]
+          },
+          "hs_caption": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "captions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "string"},
+                    "caption": {"type": "string"},
+                    "link": {"type": "string"}
+                  },
+                  "additionalProperties": false,
+                  "required": ["caption"]
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": ["caption"]
+          },
+          "photo_caption_lg": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "photo": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "string"},
+                  "url": {"type": "string"},
+                  "caption": {"type": "string"},
+                  "link": {"type": "string"}
+                },
+                "additionalProperties": false,
+                "required": ["url"]
+              }
+            },
+            "additionalProperties": false,
+            "required": ["photo"]
+          },
+          "photo_caption_sm": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "url": {"type": "string"},
+              "caption": {"type": "string"},
+              "text": {"type": "string"},
+              "link": {"type": "string"}
+            },
+            "additionalProperties": false,
+            "required": ["photo","caption","text"]
+          },
+          "slider": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "photos": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "string"},
+                    "url": {"type": "string"},
+                    "caption": {"type": "string"},
+                    "link": {"type": "string"}
+                  },
+                  "additionalProperties": false,
+                  "required": ["url"]
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "photos"
+            ]
+          },
+          "pro_caption": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "string"},
+              "captions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "caption": {
+                      "type": "object",
+                      "properties": {
+                        "id": {"type": "string"},
+                        "caption": {"type": "string"},
+                        "bold": {"type": "boolean"},
+                        "size": {"type": "number"},
+                        "center": {"type": "boolean"},
+                        "italic": {"type": "boolean"},
+                        "link": {"type": "string"}
+                      },
+                      "additionalProperties": false,
+                      "required": ["caption"]
+                    },
+                    "photo": {
+                      "type": "object",
+                      "properties": {
+                        "id": {"type": "string"},
+                        "url": {"type": "string"},
+                        "caption": {"type": "string"},
+                        "link": {"type": "string"}
+                      },
+                      "additionalProperties": false,
+                      "required": ["url"]
+                    }
+                  },
+                  "additionalProperties": false,
+                  "oneOf": [
+                    {"required": ["caption"]},
+                    {"required": ["photo"]}
+                  ]
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "captions"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "oneOf": [
+          {"required": ["photo"]},
+          {"required": ["caption"]},
+          {"required": ["hs_photo_caption"]},
+          {"required": ["hs_caption"]},
+          {"required": ["photo_caption_lg"]},
+          {"required": ["photo_caption_sm"]},
+          {"required": ["pro_caption"]},
+          {"required": ["slider"]}
+        ]
+      }
+    },
+    "env": {
+      "type": "object",
+      "properties": {
+        "back_image": {},
+        "back_color": {"type": "string"},
+        "back_image_is_url": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "input": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {"type": "string"}
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["content","id"]
+}
