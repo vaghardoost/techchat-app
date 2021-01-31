@@ -3,7 +3,7 @@
 Techchat is an application show a json datapack as android views
 In Techchat App There is Only Services And a service is context of datapack to convert to views
 ### What Is Service?
-service is a account in techchat and a acript or code can work on it. service with id and token do login and received and send data to application users(here app called client) 
+service is an account in techchat and a script or code can work on it. service with id and token do login and received and send data to application users(here app called client) 
 ### How To Transfare Data between Service and Client?
 for use a service a script or a code should connect to server. Techchat use *socket.io* to transfer data and if you have a service account inside of techchat server , your code can login your service by id and token (here called start service) and then every client send a message to your service redirects to your code and your code can make a json datapack and send to client.
 
