@@ -39,7 +39,9 @@ if you send this for a client
   "id":"hello world",
   "content":[
     {
-      "caption":"hello world"
+      "caption":{
+        "caprion":"hello world"
+      }
     }
   ]
 }
