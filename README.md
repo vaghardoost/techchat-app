@@ -40,7 +40,7 @@ if you send this for a client
   "content":[
     {
       "caption":{
-        "caprion":"hello world"
+        "text":"hello world"
       }
     }
   ]
