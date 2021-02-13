@@ -53,12 +53,11 @@ client see that
 
 and if you append another content item on datapack thease contents converted to views and append to scroll view of content
 
-techchat has a lot of rules
-
+techchat has many options:
 - Forward clients messages from one service to another as Redirection
 - Security encryption
 - Service manage panel with login
 - Datapack schema
 - Service and Server Message exchanges
 
-application uploaded soon
+read <a href="https://github.com/vaghardoost/techchat-app/wiki">techchat wiki</a> to learn more
