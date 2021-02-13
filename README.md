@@ -18,14 +18,14 @@ A datapack contains 4 part:
 
 most impotant part of datapack is content because datapack any content is a view to show
 for first version of techchat we have 8 type content
-- caption
-- photo
-- hs-caption
-- hs-photo-caption
-- photo-caption-lg
-- photo-caption-sm
-- slider
-- procaption
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#caption">caption</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#hs-caption">photo</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#photo">hs-caption</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#hs-photp-caption">hs-photo-caption</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#photo-caption-lg">photo-caption-lg</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#photo-caption-sm">photo-caption-sm</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#slider">slider</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">pro-caption</a>
 > the meaning of "hs" is **horizontal scroll**
 
 > each of thease content have schema and rules
