@@ -26,6 +26,8 @@ for first version of techchat we have 8 type content
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#photo-caption-sm">photo-caption-sm</a>
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#slider">slider</a>
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">pro-caption</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">audio</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">pairwise-photo-caption</a>
 > the meaning of "hs" is **horizontal scroll**
 
 > each of thease content have schema and rules
