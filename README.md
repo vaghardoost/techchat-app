@@ -1,6 +1,6 @@
-# Techchat Application
+# Techchat Application 
+Techchat is an application show a json datapack as android views. 
 
-Techchat is an application show a json datapack as android views
 In Techchat App There is Only Services And a service is context of datapack to convert to views
 ### What Is Service?
 service is an account in techchat and a script or code can work on it. service with id and token do login and received and send data to application users(here app called client) 
