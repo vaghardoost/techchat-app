@@ -1,7 +1,9 @@
 # Techchat Application 
 Techchat is an application show a json datapack as android views. 
 
-In Techchat App There is Only Services And a service is context of datapack to convert to views
+In Techchat App There is Only Services.
+
+a service is context of datapack to convert to views
 ### What Is Service?
 service is an account in techchat and a script or code can work on it. service with id and token do login and received and send data to application users(here app called client) 
 ### How To Transfare Data between Service and Client?
@@ -26,8 +28,8 @@ for first version of techchat we have 8 type content
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#photo-caption-sm">photo-caption-sm</a>
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#slider">slider</a>
 - <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">pro-caption</a>
-- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">audio</a>
-- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack#pro-caption">pairwise-photo-caption</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack">audio</a>
+- <a href="https://github.com/vaghardoost/techchat-app/wiki/Datapack">pairwise-photo-caption</a>
 > the meaning of "hs" is **horizontal scroll**
 
 > each of thease content have schema and rules
